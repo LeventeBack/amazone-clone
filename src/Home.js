@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import Product from './Product.js'
+import Product from './Product.js';
 
 function Home() {
     return (
@@ -16,14 +16,14 @@ function Home() {
                         title="JBL Boombox 2, Bluetooth, 80W, Powerbank, PartyBoost, Waterproof"
                         price={399.95}
                         image="./images/jbl.png"
-                        rating={1}
+                        rating={4}
                     />
                     <Product
                         id={2}
                         title='APPLE MacBook Pro 16" Retina Display, Intel Core i9, 16GB, 1TB, AMD Radeon Pro 5500M 4GB, macOS Catalina'
                         price={1099.75}
                         image="./images/macbook.png"
-                        rating={2}
+                        rating={5}
                     />
                 </div>
 
@@ -33,10 +33,10 @@ function Home() {
                         title="Sony WH-XB900N, Bluetooth, NFC, Over-Ear, Microfon, Noise Cancelling"
                         price={178.99}
                         image="./images/sony.jpg"
-                        rating={3}
+                        rating={4}
                     />
                     <Product
-                        id={1}
+                        id={3}
                         title="XIAOMI Mi Band 4, Android/iOS, black, Full color AMOLED Display"
                         price={178.99}
                         image="./images/miband.jpg"
@@ -47,7 +47,7 @@ function Home() {
                         title="XIAOMI Redmi Note 8T, 64GB, 4GB RAM, Dual SIM, Moonshadow Grey"
                         price={215.25}
                         image="./images/xiaomi.jpg"
-                        rating={5}
+                        rating={3}
                     />
                 </div>
 
